@@ -1,5 +1,5 @@
 {
-  "name": "tagging-page",
+  "name": "initial-cypress-jest-react-testing-library",
   "version": "1.0.0",
   "description": "See how to configure Jest and Cypress with React, Babel, and Webpack",
   "main": "index.js",
@@ -81,6 +81,7 @@
     "@reach/component-component": "^0.1.1",
     "@reach/router": "^1.2.0",
     "axios": "^0.18.0",
+    "chai-dom": "^1.8.1",
     "path": "^0.12.7",
     "react": "^16.8.0",
     "react-dom": "^16.5.2",

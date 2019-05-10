@@ -3,4 +3,4 @@ coverage
 dist
 cypress/videos
 cypress/screenshots
-.idea
+.idea/
