@@ -1,5 +1,4 @@
 // common project configuration used by the other configs
-
 const path = require('path')
 
 module.exports = {
@@ -10,7 +9,7 @@ module.exports = {
     'shared',
     __dirname,
   ],
-  testPathIgnorePatterns: ['<rootDir>/server/'],
+  testPathIgnorePatterns: [],
   moduleNameMapper: {
     // module must come first
     '\\.module\\.css$': 'identity-obj-proxy',

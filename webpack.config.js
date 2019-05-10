@@ -36,12 +36,6 @@ module.exports = {
   },
   devServer: {
     contentBase: path.join(__dirname, './public'),
-    historyApiFallback: true,
-    // compress: true,
-    // port: 9000
+    historyApiFallback: true
   },
 }
-
-// if (process.env.npm_lifecycle_event === 'dev:client') {
-//   module.exports.mode = 'development'
-// }

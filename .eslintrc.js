@@ -10,6 +10,9 @@ module.exports = {
   ],
   plugins: ['eslint-plugin-cypress'],
   env: {'cypress/globals': true},
+  'globals': {
+    'cy': true,
+  },
   overrides: [
     {
       files: ['**/__tests__/**'],
