@@ -16,5 +16,5 @@ $ yarn setup
 ### Run
 
 ```
-$ yarn setup
+$ npm run dev
 ```
