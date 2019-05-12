@@ -1,6 +1,6 @@
-# initial-cypress-jest-react-testing-library
+# Tagging Page project
 
-A initial project which as already configure React testing library, Cypress, EsLint, Babel, Webpack, prettier, husky
+Tagging Page allow you to declare/remove tags from a text.
 
 ### Prerequisites
 

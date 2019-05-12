@@ -17,6 +17,14 @@ module.exports = {
         use: [{loader: 'style-loader'}, {loader: 'css-loader'}],
       },
       {
+        test: /\.scss$/,
+        use: [
+          'style-loader', // creates style nodes from JS strings
+          'css-loader', // translates CSS into CommonJS
+          'sass-loader', // compiles Sass to CSS, using Node Sass by default
+        ],
+      },
+      {
         test: /\.module\.css$/,
         use: [
           {loader: 'style-loader'},
@@ -36,6 +44,6 @@ module.exports = {
   },
   devServer: {
     contentBase: path.join(__dirname, './public'),
-    historyApiFallback: true
+    historyApiFallback: true,
   },
 }

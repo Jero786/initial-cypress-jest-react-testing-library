@@ -81,7 +81,10 @@ html {
 body {
   margin: 0;
   font: 100 14px 'Roboto';
+  font-size: 62.5%; /* 1em === 10px */
   height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 button {
